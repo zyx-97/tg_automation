@@ -1,0 +1,98 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_live_case",
+    "children" : [ {
+      "name" : "Testmain",
+      "children" : [ {
+        "name" : "百度",
+        "uid" : "65858016171a2939",
+        "parentUid" : "e0f2b68c410a30ec8be1c1a9183cc52a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638429062056,
+          "stop" : 1638429062213,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "''", "''", "'get'", "'百度'", "'http://www.baidu.com'" ]
+      }, {
+        "name" : "同花顺",
+        "uid" : "b0643509efb07b0d",
+        "parentUid" : "e0f2b68c410a30ec8be1c1a9183cc52a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638429062224,
+          "stop" : 1638429062236,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "''", "''", "'get'", "'同花顺'", "'http://www.10jqka.com.cn'" ]
+      }, {
+        "name" : "直播关注接口",
+        "uid" : "459f66b28f208303",
+        "parentUid" : "e0f2b68c410a30ec8be1c1a9183cc52a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638429062243,
+          "stop" : 1638429062255,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"sid\":\"261402\",\"typeFlag\":\"0\"}'", "'{\"Content-Type\":\"application/json\",\"cookie\":\"Hm_lvt_78c58f01938e4d85eaf619eae71b4ed1=1637574939; PHPSESSID=j2bdokuj5pideciurdo281c7s0; user_status=0; user=MDpteF81NzM4NzQ5OTU6Ok5vbmU6NTAwOjU4Mzg3NDk5NTo3LDExMTExMTExMTExLDQwOzQ0LDExLDQwOzYsMSw0MDs1LDEsNDA7MSwxMDEsNDA7MiwxLDQwOzMsMSw0MDs1LDEsNDA7OCwwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMSw0MDsxMDIsMSw0MDoxNjo6OjU3Mzg3NDk5NToxNjM3ODk3MzAwOjo6MTYxNjYwODgwMDo0MDE1MDA6MDoxMGVlNjkxZGRkMTNkMDFiYjYyNjRhMTgyMDg0MGRiYjI6ZGVmYXVsdF80OjE%3D; userid=573874995; u_name=mx_573874995; escapename=mx_573874995; ticket=6b66036b09a746d4e7bdd60fa4ea169f; utk=cf0ac5de9722ba26d6d130fee042d058; log=; Hm_lvt_da7579fd91e2c6fa5aeb9d1620a9b333=1637897292,1638147795,1638163584,1638186389; Hm_lpvt_da7579fd91e2c6fa5aeb9d1620a9b333=1638186389; Hm_lpvt_78c58f01938e4d85eaf619eae71b4ed1=1638186389; v=A5hIN3z-Td-5h2FbP-BtULmAac0vgfxnXuXQj9KJ5FOGbTbzepHMm671oBgh\"}'", "'post'", "'直播关注接口'", "'http://t.10jqka.com.cn/newshow/videolive/action/follow    '" ]
+      }, {
+        "name" : "手炒首页问答接口",
+        "uid" : "5c0c11441c161a67",
+        "parentUid" : "e0f2b68c410a30ec8be1c1a9183cc52a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638429062263,
+          "stop" : 1638429062274,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"userId\":\"573874995\"}'", "''", "'get'", "'手炒首页问答接口'", "'http://t.10jqka.com.cn/askapp/feed/kyc  '" ]
+      }, {
+        "name" : "提问页获取数据",
+        "uid" : "5d694971aafd10d4",
+        "parentUid" : "e0f2b68c410a30ec8be1c1a9183cc52a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638429062285,
+          "stop" : 1638429062295,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "''", "''", "'get'", "'提问页获取数据'", "'http://t.10jqka.com.cn/askapp/ques/addpage'" ]
+      } ],
+      "uid" : "e0f2b68c410a30ec8be1c1a9183cc52a"
+    } ],
+    "uid" : "85cb979cf9624f902aba6f75b77e97e0"
+  } ]
+}

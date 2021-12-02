@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 02 15:11:02 CST 2021","Thu Dec 02 15:11:02 CST 2021","12","","test_live_case","Testmain","","","直播关注接口",""
+"passed","Thu Dec 02 15:11:02 CST 2021","Thu Dec 02 15:11:02 CST 2021","11","","test_live_case","Testmain","","","手炒首页问答接口",""
+"passed","Thu Dec 02 15:11:02 CST 2021","Thu Dec 02 15:11:02 CST 2021","12","","test_live_case","Testmain","","","同花顺",""
+"passed","Thu Dec 02 15:11:02 CST 2021","Thu Dec 02 15:11:02 CST 2021","157","","test_live_case","Testmain","","","百度",""
+"passed","Thu Dec 02 15:11:02 CST 2021","Thu Dec 02 15:11:02 CST 2021","10","","test_live_case","Testmain","","","提问页获取数据",""

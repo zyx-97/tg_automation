@@ -1,0 +1,78 @@
+{
+  "uid" : "5c0c11441c161a67",
+  "name" : "手炒首页问答接口",
+  "fullName" : "test_live_case.Testmain#test_mian",
+  "historyId" : "5c6747b5cc193f80ae8b3d64f8a54fe9",
+  "time" : {
+    "start" : 1638429062263,
+    "stop" : 1638429062274,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录用例"
+  }, {
+    "name" : "feature",
+    "value" : "测试请求"
+  }, {
+    "name" : "suite",
+    "value" : "test_live_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testmain"
+  }, {
+    "name" : "host",
+    "value" : "web-10-5-60"
+  }, {
+    "name" : "thread",
+    "value" : "6604-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_live_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "'{\"userId\":\"573874995\"}'"
+  }, {
+    "name" : "headers",
+    "value" : "''"
+  }, {
+    "name" : "methods",
+    "value" : "'get'"
+  }, {
+    "name" : "title",
+    "value" : "'手炒首页问答接口'"
+  }, {
+    "name" : "urls",
+    "value" : "'http://t.10jqka.com.cn/askapp/feed/kyc  '"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c0c11441c161a67.json",
+  "parameterValues" : [ "'{\"userId\":\"573874995\"}'", "''", "'get'", "'手炒首页问答接口'", "'http://t.10jqka.com.cn/askapp/feed/kyc  '" ]
+}
