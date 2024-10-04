@@ -2,19 +2,20 @@ import pytest
 import allure
 import os
 import json
-from apirequest import baseRequest
-from get_excle_data import hand_excl, tg_root
+from base.apirequest import baseRequest
+from base.get_excle_data import data1, tg_root
+from datetime import datetime
 
 @allure.feature('测试请求')
 class Testmain():
-    data1 = [tuple(hand_excl.row_datas(j)) for j in range(1, (hand_excl.get_nrow()))]  #迭代器，循环取出excle中的数据
+    # data1 = [tuple(hand_excl.row_datas(j)) for j in range(1, (hand_excl.get_nrow()))]  #迭代器，循环取出excle中的数据
 
     @allure.story("登录用例")
     @allure.title('{title}')
     # @allure.testcase('投顾接口')
     @pytest.mark.parametrize('methods,urls,datas,headers, title', data1)
     def test_mian(self, methods, urls, datas, headers, title):
-        if headers == '':
+        if not headers:
             header = ''
         else:
             header = json.loads(headers)  #判断header是不是为空，不为空需要解析为json格式
@@ -24,8 +25,10 @@ class Testmain():
 
 
 if __name__ == '__main__':
-    report_data = os.path.join(tg_root, 'test_report/result')
-    report_path = os.path.join(tg_root, 'test_report/report')
-    pytest.main(['--alluredir', f'{report_data}', 'test_live_case.py'])
-    # pytest.main(['-s', 'test_live_case.py'])
-    os.system(f'allure generate {report_data} --clean -o {report_path} ')
+    day = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    report_data = os.path.join(tg_root, f'test_report/test_report{day}/result')
+    report_path = os.path.join(tg_root, f'test_report/test_report{day}/report')
+    pytest.main(['--alluredir', f'{report_data}', os.path.abspath(__file__)])
+    # pytest.main(['-s', os.path.abspath(__file__)])
+    os.system(f'allure generate {report_data} -o {report_path}')
+    os.system(f'allure open {report_path}')
