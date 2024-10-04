@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","56","提问页获取数据","test_case","Fri Oct 04 20:42:09 CST 2024","failed","Fri Oct 04 20:42:09 CST 2024","Testmain","test_live_case","",""
+"","267","百度","test_case","Fri Oct 04 20:42:08 CST 2024","passed","Fri Oct 04 20:42:09 CST 2024","Testmain","test_live_case","",""
+"","147","同花顺","test_case","Fri Oct 04 20:42:09 CST 2024","failed","Fri Oct 04 20:42:09 CST 2024","Testmain","test_live_case","",""
+"","68","直播关注接口","test_case","Fri Oct 04 20:42:09 CST 2024","failed","Fri Oct 04 20:42:09 CST 2024","Testmain","test_live_case","",""
+"","53","手炒首页问答接口","test_case","Fri Oct 04 20:42:09 CST 2024","failed","Fri Oct 04 20:42:09 CST 2024","Testmain","test_live_case","",""

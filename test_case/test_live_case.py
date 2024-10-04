@@ -1,7 +1,8 @@
 import pytest
 import allure
-import os
+import os, sys
 import json
+sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__)), '/base'))
 from base.apirequest import baseRequest
 from base.get_excle_data import data1, tg_root
 from datetime import datetime
